@@ -5,10 +5,16 @@ body {
     background-image: url(imagens/Artistick.png);
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
     height: 97vh;
 
 }
+
+.text-container {
+    max-width: 900px; /* Define um limite para a largura */
+    padding: 20px;
+    text-align: center;
+}
+
 .title {
     color: white;
     font-size: 2.5em;
@@ -35,11 +41,12 @@ button:hover {
     background: #9d42de;
 }
 .social-icons img {
-    width: 30px;
-    margin: 10px;
+    width: 65px;
+    height: 55px;
+    overflow: hidden;
 }
 .social-icons {
-    position: fixed;
+    position:fixed;
     bottom: 20px;
     left: 50%;
     transform: translateX(-50%);
@@ -60,7 +67,9 @@ button:hover {
         padding: 8px 16px;
     }
     .social-icons img {
-        width: 25px;
+        width: 60px;
+        height: 55px;
+        overflow: hidden;
     }
 }
 
@@ -77,6 +86,8 @@ button:hover {
         padding: 7px 14px;
     }
     .social-icons img {
-        width: 20px;
+        width: 55px;
+        height: 45px;
+        overflow: hidden;
     }
 }
